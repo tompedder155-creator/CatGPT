@@ -14,7 +14,7 @@ class quiz(tk.Frame):
         self.create_widgets_start()
 
     def create_widgets_start(self):
-        # create a font after the root exists
+      
         self.normal_font = tkFont.Font( family="Helvetica", size=16)
         for widget in self.winfo_children():
             widget.destroy()
